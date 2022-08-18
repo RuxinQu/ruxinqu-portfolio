@@ -14,13 +14,25 @@ body {
     overflow-y: scroll;
 }
 
-a {
-    text-decoration: none;
-    color: #c8c8c8;
+h2 {
+    font-size: 3rem;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--head-foot-bgcolor);
 }
 
 .center {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #d4d4d4;
 }
 
 a:hover {
@@ -28,23 +40,34 @@ a:hover {
 }
 
 
-/* top banner section */
+/* ---------------top banner section -----------------*/
 header {
     background-color: var(--head-foot-bgcolor);
 }
 
 .banner {
     height: 80px;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#rotateimg {
+#rotate-img {
     width: 60px;
     padding-bottom: 5px;
+}
+
+.banner p{
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 80px;
+    padding: 5px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
 }
 
 nav ul {
@@ -60,27 +83,21 @@ nav a {
     padding: 0 15px;
 }
 
-#click-me {
+#click-me,
+#help-me {
     font-size: 0.9rem;
     display: block;
+    height: 14px;
+}
+
+#help-me{
+    display: none;
 }
 
 
 
 
-
-/* main section */
-h2 {
-    font-size: 3rem;
-    position: absolute;
-    width: 100%;
-    top: 40px;
-}
-
-h3 {
-    font-size: 1.5rem;
-    color: var(--head-foot-bgcolor);
-}
+/* --------------------main section-------------------*/
 
 section {
     height: 100vh;
@@ -98,11 +115,12 @@ section {
     top: 200px;
 }
 
-/* about me section */
-
-#about-me {
+#about-me,
+#contact-info {
     background-color: var(--section-bgcolor);
 }
+
+/* -----------------about me section -----------------*/
 
 #about-me .container {
     top: 150px;
@@ -115,7 +133,7 @@ section {
     box-shadow: 1px 1px 1px gray;
 }
 
-/* my work section */
+/* -----------------my work section ------------------*/
 
 .work-box {
     width: 30%;
@@ -125,8 +143,16 @@ section {
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--section-bgcolor);
+    border-radius: 2px;
 
 }
+
+.work-box:hover{
+    background-color: #C4E7FF;
+    transform: scale(1.05);
+    transition: transform 0.12s ease-in, background-color 0.12s ease-in ;
+}
+
 
 .image-container {
     width: 90%;
@@ -163,10 +189,7 @@ section {
     font-size: 1.6rem;
 }
 
-/* contact info section */
-#contact-info {
-    background-color: var(--section-bgcolor);
-}
+/* ------------------contact info section----------------- */
 
 #contact-info .container {
     top: 110px;
@@ -185,7 +208,6 @@ section {
     margin: 0 50px;
     display: flex;
     align-items: center;
-
 }
 
 .social-media a {
