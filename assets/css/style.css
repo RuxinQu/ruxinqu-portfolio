@@ -102,8 +102,12 @@ nav a {
 section {
     position: relative;
     overflow-x: hidden;
-    padding: 3.5rem;
+    padding: 50px;
     margin-bottom: 70px;
+}
+
+section h2{
+    padding-bottom: 2%;
 }
 
 .container {
@@ -123,6 +127,11 @@ section {
 
 article.intro{
     max-width: 500px;
+}
+article p{
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
 
 .profile {
@@ -231,10 +240,6 @@ article.intro{
         display: none;
     }
 
-    article.intro{
-        order: 10;
-    }
-
     nav {
         margin: 0 auto;
     }
@@ -255,15 +260,33 @@ article.intro{
 }
 
 @media only screen and (max-width: 768px) {
+    nav a {
+        font-size: 1rem;
+    }
+    
+    h2{
+        font-size: 2rem;
+    }
+
     .media-container{
         flex-wrap: nowrap;
     }
 
     .social-media{
         flex-direction: column;
+        margin-top: 50px;
     }
 
     .social-media li{
         padding: 1rem;
+    }    
+}
+
+@media only screen and (max-width: 480px) {
+    section{
+        margin-bottom: 30px;
+    }
+    .work-box{
+        border:5px solid #fff;
     }
 }
