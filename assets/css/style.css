@@ -88,6 +88,8 @@ nav a {
     font-size: 0.9rem;
     display: block;
     height: 14px;
+    color: #fcbf49;
+    font-weight: 600;
 }
 
 #help-me{
@@ -104,6 +106,8 @@ section {
     position: relative;
     overflow-x: hidden;
     scroll-snap-align: start;
+    display: flex;
+    align-items: center;
 }
 
 .container {
@@ -112,7 +116,6 @@ section {
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    top: 200px;
 }
 
 #about-me,
@@ -122,10 +125,9 @@ section {
 
 /* -----------------about me section -----------------*/
 
-#about-me .container {
-    top: 150px;
+article.intro{
+    max-width: 500px;
 }
-
 
 .profile {
     width: 350px;
@@ -192,7 +194,6 @@ section {
 /* ------------------contact info section----------------- */
 
 #contact-info .container {
-    top: 110px;
     flex-direction: column;
 }
 
@@ -225,9 +226,7 @@ section {
 
 
 
-
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1024px) {
     .banner {
         height: 60px;
     }
@@ -242,6 +241,10 @@ section {
 
     nav a {
         font-size: 1.5rem;
-        padding: 0 10px;
     }
+
+    h2{
+        font-size: 2.5rem;
+    }
+    
 }
