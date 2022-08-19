@@ -10,15 +10,10 @@ html {
 body {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
 }
 
 h2 {
     font-size: 3rem;
-    position: absolute;
-    width: 100%;
-    top: 40px;
 }
 
 h3 {
@@ -54,6 +49,12 @@ header {
     align-items: center;
 }
 
+.banner .pc{
+    display: flex;
+    align-items: center;
+}
+
+
 #rotate-img {
     width: 60px;
     padding-bottom: 5px;
@@ -61,9 +62,6 @@ header {
 
 .banner p{
     display: none;
-    position: absolute;
-    top: 25px;
-    left: 80px;
     padding: 5px;
     background-color: #fff;
     border: 2px solid #fff;
@@ -102,12 +100,10 @@ nav a {
 /* --------------------main section-------------------*/
 
 section {
-    height: 100vh;
     position: relative;
     overflow-x: hidden;
-    scroll-snap-align: start;
-    display: flex;
-    align-items: center;
+    padding: 3.5rem;
+    margin-bottom: 70px;
 }
 
 .container {
@@ -115,7 +111,7 @@ section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    position: absolute;
+    flex-wrap: wrap;
 }
 
 #about-me,
@@ -231,8 +227,12 @@ article.intro{
         height: 60px;
     }
 
-    .pc {
+    .banner .pc {
         display: none;
+    }
+
+    article.intro{
+        order: 10;
     }
 
     nav {
@@ -246,5 +246,24 @@ article.intro{
     h2{
         font-size: 2.5rem;
     }
+
+    .work-box{
+        width: 100%;
+        border:10px solid #fff;
+    }
     
+}
+
+@media only screen and (max-width: 768px) {
+    .media-container{
+        flex-wrap: nowrap;
+    }
+
+    .social-media{
+        flex-direction: column;
+    }
+
+    .social-media li{
+        padding: 1rem;
+    }
 }

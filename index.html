@@ -10,13 +10,17 @@
 </head>
 
 <body>
-    <header>       
-        <section class="banner">
+    <header>
+        <div class="banner">
             <div class="pc">
-                <img id="rotate-img" src="./assets/img/avatar.PNG" />
-                <a href='#' id="click-me">Click Me!</a>
-                <a href='#' id="help-me">Help Me!</a>
-                <p id="crook-message">Oh I'm crooked!</p>
+                <div class="left">
+                    <img id="rotate-img" src="./assets/img/avatar.PNG" />
+                    <a href='#' id="click-me">Click Me!</a>
+                    <a href='#' id="help-me">Help Me!</a>
+                </div>
+                <div class="right">
+                    <p id="crook-message">Oh I'm crooked!</p>
+                </div>
             </div>
             <nav>
                 <ul>
@@ -25,7 +29,7 @@
                     <li><a href="#contact-info">Contact Info</a></li>
                 </ul>
             </nav>
-        </section>
+        </div>
     </header>
 
     <main>
@@ -34,7 +38,8 @@
             <h2 class="center">About Me</h2>
             <div class="container">
                 <article class="intro">
-                    <p>Hi I'm Ruxin.<br> I am a bootcamp student in University of Washington, currently living in Seattle.<br> I love drawing, playing with my dog and trouble-shooting!  </p>
+                    <p>Hi I'm Ruxin.<br> I am a bootcamp student in University of Washington, currently living in
+                        Seattle.<br> I love drawing, playing with my dog and trouble-shooting! </p>
                 </article>
                 <figure>
                     <img class="profile" src="./assets/img/profile.jpg" />
@@ -81,14 +86,13 @@
         <!-- contact info section -->
         <section id="contact-info">
             <h2 class="center">Contact Info</h2>
-            <div class="container">
+            <div class="container media-container">
                 <div>
                     <div class="map">
                         <!-- Code in this div is generated from https://www.embed-map.com -->
                         <div style="overflow:hidden;resize:none;max-width:100%;width:400px;height:400px;">
                             <div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;">
-                                <iframe
-                                    style="height:100%;width:100%;border:0;" frameborder="0"
+                                <iframe style="height:100%;width:100%;border:0;" frameborder="0"
                                     src="https://www.google.com/maps/embed/v1/place?q=seattle&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
                                 </iframe>
                             </div><a class="codefor-google-map" href="https://sucks.hosting"
@@ -108,9 +112,12 @@
                     </div>
                 </div>
                 <ul class="social-media">
-                    <li><img id="github" src="./assets/img/github.webp" /><a href="https://github.com/RuxinQu">Github</a></li>
-                    <li><img id="email" src="./assets/img/gmail.png"/><a href="mailto: rosheenqu@gmail.com">Gmail</a></li>
-                    <li><img id="linkdin" src="./assets/img/linkdin.png" /><a href="https://www.linkedin.com/in/ruxin-qu-94a034176/">Linkdin</a></li>
+                    <li><img id="github" src="./assets/img/github.webp" /><a
+                            href="https://github.com/RuxinQu">Github</a></li>
+                    <li><img id="email" src="./assets/img/gmail.png" /><a href="mailto: rosheenqu@gmail.com">Gmail</a>
+                    </li>
+                    <li><img id="linkdin" src="./assets/img/linkdin.png" /><a
+                            href="https://www.linkedin.com/in/ruxin-qu-94a034176/">Linkdin</a></li>
                 </ul>
 
             </div>
