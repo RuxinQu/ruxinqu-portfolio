@@ -3,12 +3,21 @@
     --section-bgcolor: #E1F3FF;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url('./roboto-v30-latin/roboto-v30-latin-regular.ttf') format('ttf'),
+         url('./roboto-v30-latin/roboto-v30-latin-regular.svg') format('svg'),
+         url('./roboto-v30-latin/roboto-v30-latin-regular.woff') format('woff'),
+         url('./roboto-v30-latin/roboto-v30-latin-regular.woff2') format('woff2'),
+         url('./roboto-v30-latin/roboto-v30-latin-regular.eot') format('eot');
+}
+
 html {
     font-size: 16px;
 }
 
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 

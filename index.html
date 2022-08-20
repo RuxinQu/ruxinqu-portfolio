@@ -11,10 +11,12 @@
 
 <body>
     <header>
+        <!-- Top banner area -->
         <div class="banner">
+            <!-- This div only shows on pc -->
             <div class="pc">
                 <div class="left">
-                    <img id="rotate-img" src="./assets/img/avatar.PNG" alt="girls face"/>
+                    <img id="rotate-img" src="./assets/img/avatar.PNG" alt="girl's face" />
                     <a href='#' id="click-me">Click Me!</a>
                     <a href='#' id="help-me">Help Me!</a>
                 </div>
@@ -38,7 +40,7 @@
             <h2 class="center">About Me</h2>
             <div class="container">
                 <figure>
-                    <img class="profile" src="./assets/img/profile.jpg" />
+                    <img class="profile" src="./assets/img/profile.jpg" alt="Ruxin's walking and laughing" />
                 </figure>
                 <article class="intro">
                     <p>Hi I'm Ruxin.<br> I am a bootcamp student in University of Washington, currently living in
@@ -56,7 +58,8 @@
                         <h3>PREWORK</h3>
                     </div>
                     <div class="image-container">
-                        <img class="work-img" src="./assets/img/prework.png" alt="prework-study-guide"/>
+                        <a href="https://ruxinqu.github.io/prework-study-guide/">
+                        <img class="work-img" src="./assets/img/prework.png" alt="prework-study-guide" /></a>
                     </div>
                     <a class="button" href="https://ruxinqu.github.io/prework-study-guide/">View Page</a>
                 </div>
@@ -66,7 +69,8 @@
                         <h3>TEACOZY</h3>
                     </div>
                     <div class="image-container">
-                        <img class="work-img" src="./assets/img/teacozy.png" alt="teacozy"/>
+                        <a href="https://ruxinqu.github.io/teacozy/">
+                        <img class="work-img" src="./assets/img/teacozy.png" alt="teacozy" /></a>
                     </div>
                     <a class="button" href="https://ruxinqu.github.io/teacozy/">View Page</a>
                 </div>
@@ -76,7 +80,8 @@
                         <h3>FOTOMATIC</h3>
                     </div>
                     <div class="image-container">
-                        <img class="work-img" src="./assets/img/fotomatic.png" alt="fotomatic"/>
+                        <a href="https://ruxinqu.github.io/fotomatic/">
+                        <img class="work-img" src="./assets/img/fotomatic.png" alt="fotomatic" /></a>
                     </div>
                     <a class="button" href="https://ruxinqu.github.io/fotomatic/">View Page</a>
                 </div>
@@ -87,29 +92,28 @@
         <section id="contact-info">
             <h2 class="center">Contact Info</h2>
             <div class="container media-container">
-                <div>
-                    <div class="map">
-                        <!-- Code in this div is generated from https://www.embed-map.com -->
-                        <div style="overflow:hidden;resize:none;max-width:100%;width:400px;height:400px;">
-                            <div id="googlemaps-display" style="height:100%; width:100%;max-width:100%;">
-                                <iframe style="height:100%;width:100%;border:0;" frameborder="0"
-                                    src="https://www.google.com/maps/embed/v1/place?q=seattle&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                                </iframe>
-                            </div><a class="codefor-google-map" href="https://sucks.hosting"
-                                id="authorizemap-data">check it</a>
-                            <style>
-                                #googlemaps-display img.text-marker {
-                                    max-width: none !important;
-                                    background: none !important;
-                                }
-
-                                img {
-                                    max-width: none
-                                }
-                            </style>
+                <div class="map">
+                    <!-- Code in this div is generated from https://www.embed-map.com -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:400px;height:400px;">
+                        <div id="embeddedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe
+                                style="height:100%;width:100%;border:0;" frameborder="0"
+                                src="https://www.google.com/maps/embed/v1/place?q=seattle&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
                         </div>
+                        <a class="codefor-google-map" href="https://dedicatedhosting.pro" id="enable-mapdata">dedicatedhosting.pro</a>
+                        <style>
+                            #embeddedmap-canvas img.text-marker {
+                                max-width: none !important;
+                                background: none !important;
+                            }
 
+                            img {
+                                max-width: none
+                            }
+                        </style>
                     </div>
+
                 </div>
                 <ul class="social-media">
                     <li><img id="github" src="./assets/img/github.webp" /><a
