@@ -226,7 +226,7 @@ article p{
 }
 
 .social-media a {
-    color: #000;
+    color: var(--head-foot-bgcolor);
     display: inline-block;
 }
 
@@ -236,7 +236,9 @@ article p{
     margin-right: 5px;
 }
 
-
+.social-media a:hover{
+    color:#fcbf49;
+}
 
 
 
