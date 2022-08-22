@@ -20,6 +20,7 @@ View my portfolio: https://ruxinqu.github.io/ruxinqu-portfolio/
 
 ![preview video on pc](./assets/img/portfolio-pc.gif)
 
+
  The following animation shows the website's apperance on **Tablet** and **Mobile**:
 
 
