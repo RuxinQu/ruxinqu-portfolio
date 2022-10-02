@@ -169,7 +169,9 @@ article p{
     transition: transform 0.12s ease-in, background-color 0.12s ease-in ;
 }
 
-
+.work-box .text{
+    margin-bottom: 1rem;
+}
 .image-container {
     width: 90%;
     margin: 0 auto;
