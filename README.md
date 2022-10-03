@@ -1,5 +1,7 @@
 # ruxinqu-portfolio 
 
+![badge](https://img.shields.io/github/languages/top/ruxinqu/ruxinqu-portfolio)
+
 ## Description
 This is my portfolio. 
 It contains:
