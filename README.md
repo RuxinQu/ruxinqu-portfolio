@@ -17,16 +17,11 @@ View my portfolio: https://ruxinqu.github.io/ruxinqu-portfolio/
 3. Github, Gmail and Linkdin information are provided in Contact Info section.
 4. A little game at the top left of the webpage is made to add some fun!
 5. The website is responsive to different screen sizes.
- The following animation shows the website's appearance and functionality on **PC**: 
+ The following animation shows the website's appearance and functionality:
 
 
-![preview video on pc](./assets/img/portfolio-pc.gif)
+![screenshot](./assets/img/portfolio.png)
 
-
- The following animation shows the website's apperance on **Tablet** and **Mobile**:
-
-
-![preview video on mobile](./assets/img/portfolio-mobile.gif)
 
 ## Sources Referenced
 
