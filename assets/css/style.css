@@ -2,6 +2,7 @@
     --bg-body: #dad7cd;
     --medium-green: #344e41;
     --dark-green: #1F3128;
+    --light-green: #a3b18a;
     --work-a: #1B24A4;
 }
 
@@ -50,7 +51,8 @@ html {
 }
 
 #work a,
-#contact a {
+#contact a,
+#project-container a {
     font-size: 1.2rem;
     color: var(--work-a);
 }
@@ -61,7 +63,7 @@ html {
 }
 
 .carousel {
-    background-color: #a3b18a;
+    background-color: var(--light-green);
 }
 
 /* ------------contact------------ */
@@ -71,4 +73,10 @@ html {
 
 #contact img {
     width: 35px;
+}
+
+/* ------------all work------------ */
+
+.project {
+    background-color: var(--light-green);
 }
