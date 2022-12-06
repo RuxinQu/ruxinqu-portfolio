@@ -22,9 +22,10 @@ html {
     color: #fff;
 }
 
-.banner img{
+.banner img {
     width: 50px;
 }
+
 /* ------------about me------------ */
 #about-me {
     padding: 7rem 0;
@@ -48,7 +49,8 @@ html {
     color: var(--dark-green);
 }
 
-#work a {
+#work a,
+#contact a {
     font-size: 1.2rem;
     color: var(--work-a);
 }
@@ -62,17 +64,11 @@ html {
     background-color: #a3b18a;
 }
 
-
-
-
+/* ------------contact------------ */
 #contact {
     background-color: var(--bg-body);
 }
 
-#contact a{
-    font-size: 1.5rem;
-}
-
-#contact img{
+#contact img {
     width: 35px;
 }
