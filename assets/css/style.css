@@ -104,3 +104,7 @@ html {
     margin-bottom: 0;
     background-color: var(--medium-green);
 }
+
+.tool-icon{
+    width: 7%;
+}
