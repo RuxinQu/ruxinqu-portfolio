@@ -46,7 +46,7 @@ const context = {
             repo: "https://github.com/RuxinQu/Raining-Cats-and-Dogs"
         },
         {
-            title: "My Bolg",
+            title: "My Blog",
             img: "./img/my-blog.png",
             alt: "my-blog",
             icon: [
