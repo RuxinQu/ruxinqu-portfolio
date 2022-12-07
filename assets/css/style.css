@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 :root {
     --bg-body: #dad7cd;
     --medium-green: #344e41;
@@ -12,10 +14,11 @@ html {
 
 /* ------------banner styling------------ */
 .banner {
+    height: 60px;
     background-color: var(--medium-green);
 }
 
-.banner a {
+.banner a{
     color: var(--bg-body);
 }
 
@@ -27,6 +30,10 @@ html {
     width: 50px;
 }
 
+.name{
+    font-size: 1.5rem;
+    font-family: 'Great Vibes', cursive;
+}
 /* ------------about me------------ */
 #about-me {
     padding: 7rem 0;
@@ -76,7 +83,24 @@ html {
 }
 
 /* ------------all work------------ */
+.bg{
+    background-color: var(--bg-body);
+}
+
+.banner .current{
+    color: #fff;
+    text-decoration: underline;
+}
 
 .project {
     background-color: var(--light-green);
+}
+
+.project:hover{
+    transform: scale(1.02);
+}
+
+.breadcrumb{
+    margin-bottom: 0;
+    background-color: var(--medium-green);
 }
