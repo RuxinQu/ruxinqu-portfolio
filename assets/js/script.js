@@ -42,7 +42,7 @@ const context = {
                 { src: "https://camo.githubusercontent.com/95f9060552c490befea503dea9b87aa13277c0d4ff0aeb18a870f52df665fed4/68747470733a2f2f7765626472697665722e696f2f6173736574732f696d616765732f726f626f742d33363737373838646436333834396335366161356362336633333262313264352e737667" },
                 { src: passportLogo }
             ],
-            page: "https://raining-dogs.herokuapp.com/",
+            page: "https://raining-dog.herokuapp.com/",
             repo: "https://github.com/RuxinQu/Raining-Cats-and-Dogs"
         },
         {
