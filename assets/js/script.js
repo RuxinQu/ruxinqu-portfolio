@@ -32,7 +32,7 @@ const context = {
             img: "./img/raining-dogs-big.png",
             alt: "raining-cats-and-dogs",
             icon: [
-                { src: nodeLogo },
+                { src: "https://dt-cdn.net/hub/Google_Storage-Logo.wine_NniLldt.svg" },
                 { src: expressLogo },
                 { src: handlebarLogo },
                 { src: sequelizeLogo },
