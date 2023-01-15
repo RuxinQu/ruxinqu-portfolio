@@ -24,8 +24,8 @@ const context = {
                 { src: "https://developers.google.com/static/maps/images/maps-icon.svg" },
 
             ],
-            page: "https://ruxinqu.github.io/Wei-Full/",
-            repo: "https://github.com/RuxinQu/Wei-Full"
+            page: "https://ruxinqu.github.io/wei-full/",
+            repo: "https://github.com/RuxinQu/wei-full"
         },
         {
             title: "Raining Cats and Dogs",
